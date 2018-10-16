@@ -4,7 +4,6 @@ exports.up = function(knex, Promise) {
       table.increments('id');
       table.string('description');
       table.date('date_achieved');
-      table.timestamps();
     })
   ])
 };
